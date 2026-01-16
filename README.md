@@ -83,23 +83,7 @@ Ao final deste módulo, você terá:
 
 ---
 
-## 🛠️ Como Executar
-
-### Pré-requisitos
-- Git
-- JDK 25 instalado
-
-### Passos
-```bash
-# Clonar o repositório
-git clone https://github.com/brunopablo/dev.brunopablo.customer.git
-
-# Entrar na pasta
-# Executar a aplicação com o Java
-jar -jar customer-0.0.1-SNAPSHOT.jar
-
-
-### 💡 Oportunidades de Melhoria
+## 💡 Oportunidades de Melhoria
 
 ## 1. Queries nativas com `@Query`
 - Evitar múltiplos métodos de consulta no repositório.
@@ -136,3 +120,20 @@ jar -jar customer-0.0.1-SNAPSHOT.jar
   - Portabilidade entre ambientes.
   - Consistência no desenvolvimento e produção.
   - Facilidade de integração em pipelines CI/CD.
+
+---
+
+## 🛠️ Como Executar o Projeto
+
+### Pré-requisitos
+- Git
+- JDK 25 instalado
+
+### Passos
+```bash
+# Clonar o repositório
+git clone https://github.com/brunopablo/dev.brunopablo.customer.git
+
+# Entrar na pasta
+# Executar a aplicação com o Java
+java -jar target/customer-0.0.1-SNAPSHOT.jar
