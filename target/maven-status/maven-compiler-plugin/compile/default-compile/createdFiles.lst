@@ -1,0 +1,9 @@
+dev/brunopablo/customer/controller/dto/ApiResponse.class
+dev/brunopablo/customer/controller/dto/UpdateCustomerRequest.class
+dev/brunopablo/customer/controller/dto/PaginationRequest.class
+dev/brunopablo/customer/service/CustomerService.class
+dev/brunopablo/customer/CustomerApplication.class
+dev/brunopablo/customer/controller/CustomerController.class
+dev/brunopablo/customer/repository/CustomerRepository.class
+dev/brunopablo/customer/entity/CustomerEntity.class
+dev/brunopablo/customer/controller/dto/CreateCustomerRequest.class
