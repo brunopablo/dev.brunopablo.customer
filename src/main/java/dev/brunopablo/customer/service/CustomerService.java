@@ -105,9 +105,6 @@ public class CustomerService {
     
         var customerExists = customerRepository.findById(customerId).isPresent();
 
-        IO.println(customerExists);
-        // IO.println(customerExists);
-
         if(customerExists)
             customerRepository.deleteById(customerId);
 
